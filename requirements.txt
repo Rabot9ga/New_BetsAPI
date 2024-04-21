@@ -1,5 +1,5 @@
 altgraph==0.17.2
-auto-py-to-exe==2.22.0
+auto-py-to-exe==2.43.3
 beautifulsoup4==4.11.1
 bottle==0.12.23
 bottle-websocket==0.2.9

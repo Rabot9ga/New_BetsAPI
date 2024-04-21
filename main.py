@@ -19,7 +19,7 @@ cookieField.place(x=120, y=12)
 
 def main():
     cookies = cookieField.get()
-    for i in ['soccer', 'tennis', 'basketball']:
+    for i in ['soccer', 'tennis', 'basketball', 'ice-hockey', 'baseball']:
         sport = Sports(i, cookies)
         sport.sport_time()
         
