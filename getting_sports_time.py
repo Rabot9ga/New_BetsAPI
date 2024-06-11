@@ -41,6 +41,8 @@ class Sports:
                     counter_dict[time] += 1
                 else:
                     counter_dict[time] = 1
+        if not counter_dict:
+            counter_dict["00:00"] = 1
         with open(self.__sport+'.txt', 'w') as file:
             for i in counter_dict:
                 file.write(str(i) + ',' + str(counter_dict[i]) + '\n')
